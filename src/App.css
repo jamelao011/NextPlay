@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #181818;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+  border-bottom: 2px solid #E50914;
+}
+
+.header h1 {
+  color: #E50914;
+  font-size: 24px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li {
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li:hover {
+  color: #E50914;
+}
+
+/* Filmes */
+.highlight {
+  background-color: #333;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+  text-align: left;
+  border-bottom: 5px solid #E50914;
+}
+
+.highlight h2 {
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.highlight p {
+  font-size: 18px;
+  color: #B3B3B3;
+}
+
+/* Categorias */
+.categories {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h3 {
+  font-size: 24px;
+  color: #E50914;
+  margin-bottom: 20px;
+}
+
+.category-list {
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.category-list img {
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.category-list img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+  background-color: #141414;
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  border-top: 2px solid #E50914;
+}
+
+footer p {
+  font-size: 14px;
+  color: #B3B3B3;
+}
